@@ -71,7 +71,7 @@ int main() {
         directedGraph->printAdjacencyList();
         cout << "To show that function (convertMatrixToList) works currectly" << endl;
         directedGraph->convertMatrixToList();
-        directedGraph->printAdjacencyMatrix();
+        directedGraph->printAdjacencyList();
     }
 
     if (choice == 3) {
